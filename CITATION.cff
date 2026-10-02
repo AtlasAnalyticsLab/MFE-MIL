@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "TODO: paper title"
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+version: 1.0.0
+date-released: "2026-01-01"  # TODO
+license: CC-BY-NC-SA-4.0
+preferred-citation:
+  type: conference-paper
+  title: "TODO: paper title"
+  authors:
+    - family-names: "TODO"
+      given-names: "TODO"
+  conference:
+    name: "TODO: venue (e.g. ACCV 2026)"
+  year: 2026  # TODO

@@ -1,0 +1,27 @@
+# Core deep learning
+torch==2.6.0
+torchvision==0.21.0
+
+# ViT backbone utilities
+timm==0.9.8
+
+# Data / scientific
+numpy==1.26.4
+scipy>=1.11.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+scikit-learn==1.5.2
+h5py==3.12.0
+
+# Tensor ops
+einops==0.8.2
+
+# Image loading
+Pillow>=9.5.0
+opencv-python>=4.10.0
+
+# WSI reading (feature extraction only, not needed for MIL training)
+openslide-python==1.3.1
+
+# Optional: Mamba SSM backbone (requires separate build)
+# mamba-ssm>=1.0.0

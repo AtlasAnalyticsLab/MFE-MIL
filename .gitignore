@@ -1,0 +1,23 @@
+# Environment / secrets
+.env.local
+.env
+
+# Results, checkpoints, logs — not part of the code release
+results/
+logs/
+*.h5
+*.log
+
+# Checkpoints, but keep the small precomputed codebook centroids at repo root
+*.pt
+*.pth
+!centroids_*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
