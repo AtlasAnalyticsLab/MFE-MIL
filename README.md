@@ -14,11 +14,11 @@ baseline tables are not part of this release.
 **Packed-grid fidelity** (coordinate-only, no GPU — see
 `packed_grid_fidelity.py`):
 | Dataset | Test slides | prec@1 | prec@2 | recall | H-prec@1 | V-prec@1 |
-|---|---:|---:|---:|---:|---:|---:|
-| CAM16 | 128 | 0.4873 ±<br><sub>0.0128</sub> | 0.5006 ±<br><sub>0.0150</sub> | 0.4984 ±<br><sub>0.0033</sub> | 0.967 | 0.007 |
-| CAM17 | 50 | 0.4817 ±<br><sub>0.0124</sub> | 0.4947 ±<br><sub>0.0141</sub> | 0.4990 ±<br><sub>0.0032</sub> | 0.957 | 0.007 |
-| PANDA | 1031 | 0.4687 ±<br><sub>0.0390</sub> | 0.5151 ±<br><sub>0.0613</sub> | 0.4995 ±<br><sub>0.0266</sub> | 0.894 | 0.043 |
-| BRCA | 96 | 0.4969 ±<br><sub>0.0169</sub> | 0.5103 ±<br><sub>0.0221</sub> | 0.5006 ±<br><sub>0.0054</sub> | 0.974 | 0.020 |
+|---|---|---|---|---|---|---|
+| CAM16 | 128  | 0.4873  | 0.5006  | 0.4984  | 0.967 | 0.007 |
+| CAM17 | 50   | 0.4817 | 0.4947  | 0.4990  | 0.957 | 0.007 |
+| PANDA | 1031 | 0.4687  | 0.5151  | 0.4995  | 0.894 | 0.043 |
+| BRCA  | 96   | 0.4969  | 0.5103  | 0.5006  | 0.974 | 0.020 |
 
 Test sets are split 0 (CAM16, PANDA, BRCA) and split 1 (CAM17). Neighbours come
 from exact patch coordinates one patch step apart (no grid snapping), so the
