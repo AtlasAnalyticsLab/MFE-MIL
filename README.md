@@ -1,4 +1,4 @@
-# [ACCV 2026] MFE-MIL: Window-Masking Feature-Reconstruction MIL for Whole-Slide Images
+# MFE-MIL: Window-Masking Feature-Reconstruction MIL for Whole-Slide Images
 
 MFE-MIL is a multiple-instance-learning (MIL) framework for whole-slide
 image (WSI) classification and survival prediction. An adapter module is
