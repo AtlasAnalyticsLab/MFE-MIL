@@ -1,18 +1,32 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
-title: "TODO: paper title"
+title: "Masked Feature Encoding for Large-Scale Whole Slide Image Representation"
 authors:
-  - family-names: "TODO"
-    given-names: "TODO"
+  - family-names: "He"
+    given-names: "Haoyu"
+  - family-names: "Tessier-Cloutier"
+    given-names: "Basile"
+  - family-names: "Wang"
+    given-names: "Yang"
+  - family-names: "Hosseini"
+    given-names: "Mahdi S."
 version: 1.0.0
-date-released: "2026-01-01"  # TODO
+date-released: "2026-10-07"
 license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/AtlasAnalyticsLab/MFE-MIL"
+url: "https://arxiv.org/abs/2610.10225"
 preferred-citation:
-  type: conference-paper
-  title: "TODO: paper title"
+  type: article
+  title: "Masked Feature Encoding for Large-Scale Whole Slide Image Representation"
   authors:
-    - family-names: "TODO"
-      given-names: "TODO"
-  conference:
-    name: "TODO: venue (e.g. ACCV 2026)"
-  year: 2026  # TODO
+    - family-names: "He"
+      given-names: "Haoyu"
+    - family-names: "Tessier-Cloutier"
+      given-names: "Basile"
+    - family-names: "Wang"
+      given-names: "Yang"
+    - family-names: "Hosseini"
+      given-names: "Mahdi S."
+  journal: "arXiv preprint arXiv:2610.10225"
+  year: 2026
+  url: "https://arxiv.org/abs/2610.10225"

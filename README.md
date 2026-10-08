@@ -1,4 +1,4 @@
-# MFE-MIL: Window-Masking Feature-Reconstruction MIL for Whole-Slide Images
+# [ACCV 2026] MFE-MIL: Window-Masking Feature-Reconstruction MIL for Whole-Slide Images
 
 MFE-MIL is a multiple-instance-learning (MIL) framework for whole-slide
 image (WSI) classification and survival prediction. An adapter module is
@@ -13,12 +13,13 @@ baseline tables are not part of this release.
 
 **Packed-grid fidelity** (coordinate-only, no GPU — see
 `packed_grid_fidelity.py`):
+
 | Dataset | Test slides | prec@1 | prec@2 | recall | H-prec@1 | V-prec@1 |
 |---|---|---|---|---|---|---|
-| CAM16 | 128  | 0.4873  | 0.5006  | 0.4984  | 0.967 | 0.007 |
-| CAM17 | 50   | 0.4817 | 0.4947  | 0.4990  | 0.957 | 0.007 |
-| PANDA | 1031 | 0.4687  | 0.5151  | 0.4995  | 0.894 | 0.043 |
-| BRCA  | 96   | 0.4969  | 0.5103  | 0.5006  | 0.974 | 0.020 |
+| CAM16 | 128  | 0.4873 ± 0.0128 | 0.5006 ± 0.0150 | 0.4984 ± 0.0033 | 0.967 | 0.007 |
+| CAM17 | 50   | 0.4817 ± 0.0124 | 0.4947 ± 0.0141 | 0.4990 ± 0.0032 | 0.957 | 0.007 |
+| PANDA | 1031 | 0.4687 ± 0.0390 | 0.5151 ± 0.0613 | 0.4995 ± 0.0266 | 0.894 | 0.043 |
+| BRCA  | 96   | 0.4969 ± 0.0169 | 0.5103 ± 0.0221 | 0.5006 ± 0.0054 | 0.974 | 0.020 |
 
 Test sets are split 0 (CAM16, PANDA, BRCA) and split 1 (CAM17). Neighbours come
 from exact patch coordinates one patch step apart (no grid snapping), so the
@@ -173,4 +174,13 @@ above is reproducible from scratch via `run_manifest.py`.
 
 ## Citation
 
-See `CITATION.cff`.
+Paper: [arXiv:2610.10225](https://arxiv.org/abs/2610.10225). See also `CITATION.cff`.
+
+```bibtex
+@article{he2026masked,
+  title   = {Masked Feature Encoding for Large-Scale Whole Slide Image Representation},
+  author  = {He, Haoyu and Tessier-Cloutier, Basile and Wang, Yang and Hosseini, Mahdi S.},
+  journal = {arXiv preprint arXiv:2610.10225},
+  year    = {2026}
+}
+```
